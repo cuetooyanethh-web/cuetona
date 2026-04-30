@@ -99,8 +99,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #e5e7eb; /* gris claro como la imagen */
-    color: #000;
+    background: #1d4eb1; /* gris claro como la imagen */
+    color: #ecdede;
     padding: 20px;
     border-radius: 8px;
 }
