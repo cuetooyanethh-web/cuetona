@@ -126,3 +126,23 @@ footer {
     font-size: 14px;
     color: #64748b;
 }
+/* DATOS ACADÉMICOS EN 2 COLUMNAS */
+section:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* lado izquierdo */
+section:nth-of-type(3) h4:first-of-type,
+section:nth-of-type(3) h4:first-of-type + li {
+    width: 48%;
+}
+
+/* lado derecho */
+section:nth-of-type(3) h4:last-of-type,
+section:nth-of-type(3) h4:last-of-type + li {
+    width: 48%;
+    text-align: right;
+    margin-left: auto;
+}
