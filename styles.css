@@ -15,7 +15,7 @@ body {
 /* HEADER */
 header {
     text-align: center;
-    border-bottom: 2px solid #22c55e;
+    border-bottom: 2px solid #225bc5;
     margin-bottom: 25px;
     padding: 40px 20px 15px 20px;
 }
@@ -99,7 +99,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #1d4eb1; /* gris claro como la imagen */
+    background: #1e2738; /* gris claro como la imagen */
     color: #ecdede;
     padding: 20px;
     border-radius: 8px;
