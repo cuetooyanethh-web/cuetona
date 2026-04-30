@@ -126,23 +126,33 @@ footer {
     font-size: 14px;
     color: #64748b;
 }
-/* DATOS ACADÉMICOS EN 2 COLUMNAS */
+/* DATOS ACADEMICOS ORDENADO */
 section:nth-of-type(3) {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columnas */
     gap: 40px;
 }
 
-/* lado izquierdo */
-section:nth-of-type(3) h4:first-of-type,
-section:nth-of-type(3) h4:first-of-type + li {
-    width: 48%;
+/* títulos */
+section:nth-of-type(3) h4 {
+    margin-bottom: 5px;
+    color: #38bdf8;
 }
 
-/* lado derecho */
+/* listas */
+section:nth-of-type(3) li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* columna izquierda */
+section:nth-of-type(3) h4:first-of-type,
+section:nth-of-type(3) h4:first-of-type + li {
+    grid-column: 1;
+}
+
+/* columna derecha */
 section:nth-of-type(3) h4:last-of-type,
 section:nth-of-type(3) h4:last-of-type + li {
-    width: 48%;
-    text-align: right;
-    margin-left: auto;
+    grid-column: 2;
 }
