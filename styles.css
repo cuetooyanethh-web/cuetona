@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
-    background: #161c22;
+    background: #2f3d4b;
     color: #e2e8f0;
 }
 
@@ -109,7 +109,7 @@ footer {
 .header-flex .left h1 {
     margin: 0;
     font-size: 28px;
-    color: #000;
+    color: #b9b0b0;
 }
 
 .header-flex .left h2 {
