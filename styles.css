@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
-    background: #2c77bd;
+    background: #455c72;
     color: #e2e8f0;
 }
 
@@ -34,7 +34,7 @@ header h2 {
 
 /* SECCIONES */
 section {
-    background: #1e293b;
+    background: #4b6794;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 20px;
