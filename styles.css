@@ -127,12 +127,7 @@ footer {
     color: #64748b;
 }
 /* DATOS ACADÉMICOS BIEN ORDENADO */
-section:nth-of-type(3) {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 columnas iguales */
-    gap: 9px;
-    align-items: start;
-}
+
 
 /* títulos */
 section:nth-of-type(3) h4 {
