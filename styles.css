@@ -186,13 +186,21 @@ a:hover {
   gap: 10px;
 }
 
-/* LinkedIn normal */
-.contacto a {
+.contacto {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  height: 120px; /* ajusta según tu caja */
+  justify-content: space-between;
 }
 
-/* GitHub a la derecha */
-.github {
+/* arriba (LinkedIn) */
+.top {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* abajo (GitHub a la derecha) */
+.bottom {
+  display: flex;
   justify-content: flex-end;
 }
