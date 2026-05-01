@@ -158,3 +158,14 @@ section:nth-of-type(3) h4:last-of-type {
 section:nth-of-type(3) h4:last-of-type + li {
     grid-column: 2;
 }
+.btn-cert {
+    display: inline-block;
+    margin-top: 5px;
+    color: #22c55e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-cert:hover {
+    text-decoration: underline;
+}
