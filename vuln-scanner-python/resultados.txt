@@ -1,0 +1,13 @@
+Escaneo de: 192.168.0.5
+IP: 192.168.0.5
+
+[CERRADO] Puerto 21
+[CERRADO] Puerto 22
+[CERRADO] Puerto 23
+[CERRADO] Puerto 25
+[CERRADO] Puerto 53
+[CERRADO] Puerto 80
+[CERRADO] Puerto 110
+[CERRADO] Puerto 443
+[CERRADO] Puerto 445
+[CERRADO] Puerto 3389
