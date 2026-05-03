@@ -193,14 +193,3 @@ a:hover {
   justify-content: space-between;
 }
 
-/* arriba (LinkedIn) */
-.top {
-  display: flex;
-  justify-content: flex-start;
-}
-
-/* abajo (GitHub a la derecha) */
-.bottom {
-  display: flex;
-  justify-content: flex-end;
-}
